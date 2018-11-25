@@ -11,8 +11,9 @@ puts "Your cards add up to #{x}"
 end
 
 def prompt_user
+gets.chomp
   puts "Type 'h' to hit or 's' to stay"
-  gets.chomp
+
 end
 
 def get_user_input

@@ -11,7 +11,7 @@ puts "Your cards add up to #{x}"
 end
 
 def prompt_user
-  gets.chomp
+
 end
 
 def get_user_input
